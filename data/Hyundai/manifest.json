@@ -1,0 +1,18 @@
+{
+  "brand": "Hyundai",
+  "year": 2026,
+  "models": [
+    "Elantra",
+    "IONIQ_5",
+    "IONIQ_5_N",
+    "IONIQ_6",
+    "IONIQ_9",
+    "Kona",
+    "Palisade",
+    "Santa_Cruz",
+    "Santa_Fe",
+    "Sonata",
+    "Tucson",
+    "Venue"
+  ]
+}
