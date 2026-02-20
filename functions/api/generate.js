@@ -71,7 +71,7 @@ export async function onRequest(context) {
     return jsonResponse({ error: "Prompt exceeds maximum length of 25000 characters." }, 413);
   }
 
-  const fallbackModels = ["gemini-2.0-flash", "gemini-1.5-flash"];
+const fallbackModels = ["gemini-2.5-flash", "gemini-1.5-flash"];
   const modelOrder = requestedModel
     ? [requestedModel, ...fallbackModels.filter((model) => model !== requestedModel)]
     : fallbackModels;
